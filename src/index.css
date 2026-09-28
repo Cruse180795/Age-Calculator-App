@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+    --color-purple-500: hsl(259, 100%, 65%);
+
+    --color-red-400: hsl(0, 100%, 67%);
+
+    --color-gray-100: hsl(0, 0%, 94%);
+    --color-gray-200: hsl(0, 0, 86%);
+    --color-gray-500: hsl(0, 1%, 44%);
+
+    --font-poppins: "Poppins", sans-serif;
+
+    --text-104: 104px;
+    --text-56: 56px;
+
+    --leading-110: 110%;
+    --leading-150: 150%;
+
+    --tracking-tight-1: -2px;
+    --tracking-wide-1: 4px;
+    --tracking-wide-2: 5px;
+}
+
+/*Font Regular*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Font Italic*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-Italic.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Font Bold*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-Bold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Font Bold Italic*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-BoldItalic.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Font Extra Bold*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-ExtraBold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*Font Extra Bold Italic*/
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins-ExtraBoldItalic.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 800;
+    font-style: italic;
+}
+
+body {
+    font-family: var(--font-poppins);
+}
