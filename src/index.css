@@ -6,7 +6,7 @@
     --color-red-400: hsl(0, 100%, 67%);
 
     --color-gray-100: hsl(0, 0%, 94%);
-    --color-gray-200: hsl(0, 0, 86%);
+    --color-gray-200: hsl(0, 0%, 86%);
     --color-gray-500: hsl(0, 1%, 44%);
 
     --font-poppins: "Poppins", sans-serif;
@@ -78,4 +78,9 @@
 
 body {
     font-family: var(--font-poppins);
+    background-color: var(--color-gray-200);
+}
+
+#form {
+    border-radius: 24px 24px 100px 24px;
 }

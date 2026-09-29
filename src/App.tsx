@@ -1,7 +1,9 @@
+import AgeForm from "./components/AgeForm";
+
 export default function App() {
   return (
-    <div>
-      <h1 className="tracking">Age Calaculator App</h1>
-    </div>
+    <main className="px-4 flex justify-center h-screen items-center bg-gray-200">
+      <AgeForm />
+    </main>
   );
 }
