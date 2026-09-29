@@ -11,7 +11,7 @@ export default function FormInput({ id, name, placeholder }: FormInputProps) {
       id={id}
       name={name}
       required
-      className="px-4 py-2 rounded-lg border border-gray-200 text-black font-bold text-xl leading-150"
+      className="px-4 py-2 rounded-lg border border-gray-200 text-black font-bold text-xl leading-150 md:px-6 md:text-32"
       placeholder={placeholder}
     />
   );
