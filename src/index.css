@@ -81,13 +81,12 @@ body {
     font-family: var(--font-poppins);
     background-color: var(--color-gray-200);
 }
-
-#form {
-    border-radius: 24px 24px 100px 24px;
+form {
+    border-radius: 1.5rem 1.5rem 6.25rem 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
-    #form {
-        border-radius: 24px 24px 200px 24px;
+    form {
+        border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
     }
 }

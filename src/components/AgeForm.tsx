@@ -107,11 +107,7 @@ export default function AgeForm() {
   };
 
   return (
-    <form
-      className="bg-white px-6 py-12 space-y-8 md:px-14 md:py-14 lg:max-w-210"
-      id="form"
-      onSubmit={handleSubmit}
-    >
+    <form className="bg-white px-6 py-12 space-y-8 md:px-14 md:py-14 lg:max-w-210" onSubmit={handleSubmit}>
       {/** Inputs */}
       <div className="grid grid-cols-3 gap-x-4 md:gap-x-8">
         {/** Day */}
@@ -164,6 +160,7 @@ export default function AgeForm() {
         <hr className="border-gray-200 w-full" />
         <div className="">
           <button
+            type="submit"
             aria-label="calculate age"
             className="bg-purple-500 rounded-full w-16 h-16 md:w-24 md:h-24 flex items-center justify-center cursor-pointer transition-colors ease-in-out duration-300 hover:bg-black"
           >
